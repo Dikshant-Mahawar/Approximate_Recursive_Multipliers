@@ -1,0 +1,38 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 21.10-p002_1, built Thu Aug 19 21:43:13 PDT 2021
+Options: -legacy_ui 
+Date:    Mon Nov 11 21:51:48 2024
+Host:    vlsiuser14 (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*8cpus*1physical cpu*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB) (7785348KB)
+PID:     17085
+OS:      Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+Checkout succeeded: Genus_Synthesis/AF9962AAA7C3F38A370F
+	License file: 5280@172.16.201.225
+	License Server: 5280@172.16.201.225
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (7 seconds elapsed).
+
+WARNING: This version of the tool is 1179 days old.
+legacy_genus:/> source script.tcl
+Sourcing './script.tcl' (Mon Nov 11 21:52:08 IST 2024)...
+Sourcing './scripts/main_script.tcl' (Mon Nov 11 21:52:08 IST 2024)...
+Sourcing './scripts/config_script.tcl' (Mon Nov 11 21:52:08 IST 2024)...
+  Setting attribute of root '/': 'init_lib_search_path' = ./lib/45nm/
+Warning : This attribute will be obsolete in a next major release. [TUI-32]
+        : attribute: 'hdl_search_path', object type: 'root'
+        : Attribute 'hdl_search_path' is going to be obsoleted, use the new attribute 'init_hdl_search_path'.
+  Setting attribute of root '/': 'hdl_search_path' = ./RTL/OR_approx/
+  Setting attribute of root '/': 'auto_ungroup' = none
+  Setting attribute of root '/': 'information_level' = 6

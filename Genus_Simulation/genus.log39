@@ -1,0 +1,74 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 21.10-p002_1, built Thu Aug 19 21:43:13 PDT 2021
+Options: -files script.tcl 
+Date:    Tue Nov 12 13:55:16 2024
+Host:    vlsiuser14 (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*8cpus*1physical cpu*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB) (7785348KB)
+PID:     2878
+OS:      Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+Checkout succeeded: Genus_Synthesis/AF9962AAA7C3F38A370F
+	License file: 5280@172.16.201.225
+	License Server: 5280@172.16.201.225
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (7 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source script.tcl
+#@ Begin verbose source ./script.tcl
+@file(script.tcl) 3: source ./scripts/main_script.tcl
+Sourcing './scripts/main_script.tcl' (Tue Nov 12 13:55:23 IST 2024)...
+#@ Begin verbose source ./scripts/main_script.tcl
+@file(main_script.tcl) 1: source ./scripts/config_script.tcl
+Sourcing './scripts/config_script.tcl' (Tue Nov 12 13:55:23 IST 2024)...
+#@ Begin verbose source ./scripts/config_script.tcl
+@file(config_script.tcl) 2: set tech_node "45nm"
+@file(config_script.tcl) 7: set cell_types "fast_vdd1v0_basicCells.lib" 
+@file(config_script.tcl) 10: set hdl_file "M16_1"
+@file(config_script.tcl) 13: set generic_effort "high"
+@file(config_script.tcl) 14: set map_effort "high"
+@file(config_script.tcl) 15: set opt_effort "high"
+#@ End verbose source ./scripts/config_script.tcl
+@file(main_script.tcl) 4: set_attr init_lib_search_path ./lib/$tech_node/
+Error   : The tool is running in common ui mode. [TUI-509] [::unknown]
+        : Command 'set_attr' is a legacy ui command.
+        : Use set_db/get_db instead or do set_db common_ui false at start of the run.
+#@ End verbose source ./scripts/main_script.tcl
+#@ End verbose source ./script.tcl
+
+Encountered problems processing file: script.tcl
+WARNING: This version of the tool is 1180 days old.
+@genus:root: 2> source ./script.tcl
+Sourcing './script.tcl' (Tue Nov 12 13:55:32 IST 2024)...
+#@ Begin verbose source ./script.tcl
+@file(script.tcl) 3: source ./scripts/main_script.tcl
+Sourcing './scripts/main_script.tcl' (Tue Nov 12 13:55:32 IST 2024)...
+#@ Begin verbose source ./scripts/main_script.tcl
+@file(main_script.tcl) 1: source ./scripts/config_script.tcl
+Sourcing './scripts/config_script.tcl' (Tue Nov 12 13:55:32 IST 2024)...
+#@ Begin verbose source ./scripts/config_script.tcl
+@file(config_script.tcl) 2: set tech_node "45nm"
+@file(config_script.tcl) 7: set cell_types "fast_vdd1v0_basicCells.lib" 
+@file(config_script.tcl) 10: set hdl_file "M16_1"
+@file(config_script.tcl) 13: set generic_effort "high"
+@file(config_script.tcl) 14: set map_effort "high"
+@file(config_script.tcl) 15: set opt_effort "high"
+#@ End verbose source ./scripts/config_script.tcl
+@file(main_script.tcl) 4: set_attr init_lib_search_path ./lib/$tech_node/
+Error   : The tool is running in common ui mode. [TUI-509] [::unknown]
+        : Command 'set_attr' is a legacy ui command.
+#@ End verbose source ./scripts/main_script.tcl
+#@ End verbose source ./script.tcl
+@genus:root: 3> exit
+Normal exit.
